@@ -797,7 +797,7 @@ export class FurnitureTransportationComponent implements OnInit {
     // Canonical URL
     this.metaService.updateTag({
       rel: 'canonical',
-      href: 'https://your-domain.vercel.app'
+      href: 'https://www.dhaman-move.online'
     });
   }
 
