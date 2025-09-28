@@ -1,1 +1,145 @@
-<p>furniture-transportation.component works!</p>
+<div class="furniture-page" dir="rtl">
+  <!-- Add structured content for SEO -->
+  <div class="seo-content-hidden" style="display: none;">
+    <h1>{{ seoTitle }}</h1>
+    <p>{{ seoDescription }}</p>
+    <div itemscope itemtype="https://schema.org/MovingCompany">
+      <span itemprop="name">مؤسسة الضمان الذهبي لنقل الأثاث</span>
+      <span itemprop="telephone">0559160622</span>
+      <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="addressCountry">SA</span>
+        <span itemprop="addressRegion">جدة</span>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">مؤسسة الضمان الذهبي لنقل الاثاث - 0559160622</h1>
+      <p class="tagline">نقل عفش مع الفك والتركيب والتغليف والضمان - في جدة وجميع أنحاء المملكة العربية السعودية</p>
+    </div>
+  </header>
+
+  <!-- Fixed Contact Icons -->
+  <div class="fixed-contact-icons" [class.hidden]="contactIconsHidden">
+    <a href="tel:0559160622" class="contact-icon phone-icon" [class.hidden]="contactIconsHidden" title="اتصل بنا">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a href="https://wa.me/966559160622" target="_blank" class="contact-icon whatsapp-icon" [class.hidden]="contactIconsHidden" title="واتساب">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <button class="contact-icon close-icon" (click)="toggleContactIcons()" title="إخفاء/إظهار">
+      <i class="fas fa-times" *ngIf="!contactIconsHidden"></i>
+      <i class="fas fa-phone-alt" *ngIf="contactIconsHidden"></i>
+    </button>
+  </div>
+
+  <div class="container">
+    <!-- Main content sections with proper headings for SEO -->
+    <section class="contact">
+      <h2>اتصل بنا الآن للحصول على أفضل خدمة نقل عفش</h2>
+      <p><i class="fas fa-phone"></i> هاتف: 0559160622</p>
+      <br>
+      <a href="https://wa.me/966559160622" target="_blank" class="btn-primary">
+        اطلب خدمة الآن
+      </a>
+    </section>
+
+    <!-- Enhanced SEO section with more structured content -->
+    <section class="seo-section">
+      <h2 class="seo-title">أفضل شركة نقل عفش متخصصة في جدة والمملكة العربية السعودية</h2>
+
+      <div class="seo-image-container">
+        <div class="seo-image">
+          <div class="seo-image-content">
+            <div class="seo-image-logo">الضمان الذهبي لنقل الإثاث</div>
+            <div class="seo-image-text">اضمن عفشك بأفضل خدمة نقل في جدة والمملكة</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="seo-content">
+        <h3>شركة نقل عفش جدة - الخيار الأمثل لنقل آمن ومضمون</h3>
+        <p>
+          إذا كنت تبحث عن <strong>شركة نقل عفش في جدة</strong> موثوقة ومحترفة، فإن مؤسسة الضمان الذهبي هي الخيار الأمثل لك. 
+          نحن نقدم خدمات <strong>نقل الأثاث في جدة</strong> بأعلى معايير الجودة والأمان، مع فريق من الفنيين المتخصصين 
+          في <strong>فك وتركيب العفش</strong> وخدمات <strong>تغليف الأثاث</strong> المحترفة.
+        </p>
+
+        <h3>خدمات نقل العفش المتكاملة في جميع مدن المملكة</h3>
+        <p>
+          تشمل خدماتنا <strong>نقل عفش الرياض</strong> و<strong>نقل عفش مكة المكرمة</strong> و<strong>نقل عفش المدينة المنورة</strong> 
+          بالإضافة إلى خدمات <strong>نقل المكاتب</strong> و<strong>نقل الأجهزة الكهربائية</strong>. نحن نستخدم أحدث الأساليب 
+          في التغليف والنقل لضمان وصول عفشك بحالة ممتازة.
+        </p>
+
+        <h3>لماذا نحن أفضل شركة نقل عفش في السعودية؟</h3>
+        <ul>
+          <li>✓ فريق فنيين محترفين مدربين على أعلى مستوى</li>
+          <li>✓ سيارات نقل مجهزة ومقفولة لحماية العفش</li>
+          <li>✓ خدمات فك وتركيب شاملة لجميع أنواع الأثاث</li>
+          <li>✓ تغليف احترافي بمواد عالية الجودة</li>
+          <li>✓ أسعار تنافسية مع ضمان على الخدمة</li>
+          <li>✓ خدمة عملاء متاحة 24/7</li>
+        </ul>
+
+        <div class="cities-service">
+          <h3>مناطق خدماتنا في المملكة العربية السعودية</h3>
+          <div class="cities-grid">
+            <div class="city-item">
+              <h4>نقل عفش جدة</h4>
+              <p>خدمة نقل عفش متكاملة في جدة مع فنيين متخصصين</p>
+            </div>
+            <div class="city-item">
+              <h4>نقل عفش الرياض</h4>
+              <p>أفضل شركة نقل أثاث في الرياض بأسعار مناسبة</p>
+            </div>
+            <div class="city-item">
+              <h4>نقل عفش مكة المكرمة</h4>
+              <p>خدمات نقل العفش في مكة مع الضمان الشامل</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="seo-keywords">
+          <h4>خدماتنا المتخصصة:</h4>
+          <div class="keywords-list">
+            <span class="keyword" *ngFor="let keyword of keywords">{{ keyword }}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rest of your existing sections... -->
+    <section class="services">
+      <h2 class="service-title">خدماتنا المتكاملة لنقل العفش</h2>
+      <p>نقدم في شركتنا خدمات نقل العفش المتكاملة التي تشمل الفك والتركيب والتغليف بأسعار مناسبة مع ضمان على الخدمة. نحن نستخدم سيارات مقفولة مجهزة خصيصاً لنقل العفش لحماية أغراضكم أثناء التنقل بين مدن المملكة العربية السعودية.</p>
+
+      <div class="service-list">
+        <div class="service-item" *ngFor="let service of services">
+          <div class="service-img">
+            <img [src]="service.image" [alt]="service.title + ' - ' + service.description">
+          </div>
+          <div class="service-content">
+            <h3>{{ service.title }}</h3>
+            <p>{{ service.description }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="social-icons">
+        <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="انستغرام"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/966559160622" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p>مؤسسة الضمان الذهبي لنقل الاثاث - خدمات نقل عفش مع الفك والتركيب والتغليف والضمان في جميع أنحاء المملكة العربية السعودية</p>
+      <p>جميع الحقوق محفوظة ©2024</p>
+    </div>
+  </footer>
+</div>

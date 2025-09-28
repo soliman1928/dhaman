@@ -137,8 +137,6 @@ import { Title, Meta } from '@angular/platform-browser';
           </div>
         </section>
 
-        <!-- Continue with rest of your template... -->
-        <!-- Your existing sections: why-us, gallery, pricing-coverage, etc. -->
       </div>
 
       <footer>
@@ -693,7 +691,9 @@ export class FurnitureTransportationComponent implements OnInit {
     'فك وتركيب المطابخ',
     'فك وتركيب المكيفات',
     'أفضل شركة نقل عفش',
-    'أسعار نقل العفش'
+    'أسعار نقل العفش',
+    'افضل شركة نقل العفش فى جده',
+    'احسن شركة نقل العفش فى السعودية'
   ];
 
   services = [
@@ -846,21 +846,8 @@ export class FurnitureTransportationComponent implements OnInit {
     document.getElementsByTagName('head')[0].appendChild(link);
   }
 
-  // private updateVisitCount(): void {
-  //   const logs = this.visitLoggerService.getAllVisitLogs();
-  //   this.visitCount = logs.length;
-  // }
-
   toggleContactIcons(): void {
     this.contactIconsHidden = !this.contactIconsHidden;
   }
 
-  // downloadLogs(): void {
-  //   this.visitLoggerService.downloadVisitLogs();
-  // }
-
-  // clearLogs(): void {
-  //   this.visitLoggerService.clearLogs();
-  //   this.updateVisitCount();
-  // }
 }
