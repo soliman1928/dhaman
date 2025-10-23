@@ -25,7 +25,7 @@ import { Title, Meta } from '@angular/platform-browser';
       <header>
         <div class="container">
           <h1 class="logo">مؤسسة الضمان الذهبي لنقل الاثاث - 0559160622</h1>
-          <p class="tagline">نقل عفش مع الفك والتركيب والتغليف والضمان - في جدة وجميع أنحاء المملكة العربية السعودية</p>
+          <p class="tagline">نقل عفش مع الفك والتركيب والتغليف والضمان - في جدة </p>
         </div>
       </header>
 
@@ -56,13 +56,13 @@ import { Title, Meta } from '@angular/platform-browser';
 
         <!-- Enhanced SEO section with more structured content -->
         <section class="seo-section">
-          <h2 class="seo-title">أفضل شركة نقل عفش متخصصة في جدة والمملكة العربية السعودية</h2>
+          <h2 class="seo-title">أفضل شركة نقل عفش متخصصة في جدة </h2>
 
           <div class="seo-image-container">
             <div class="seo-image">
               <div class="seo-image-content">
                 <div class="seo-image-logo">الضمان الذهبي لنقل الإثاث</div>
-                <div class="seo-image-text">اضمن عفشك بأفضل خدمة نقل في جدة والمملكة</div>
+                <div class="seo-image-text">اضمن عفشك بأفضل خدمة نقل في جدة </div>
               </div>
             </div>
           </div>
@@ -75,14 +75,14 @@ import { Title, Meta } from '@angular/platform-browser';
               في <strong>فك وتركيب العفش</strong> وخدمات <strong>تغليف الأثاث</strong> المحترفة.
             </p>
 
-            <h3>خدمات نقل العفش المتكاملة في جميع مدن المملكة</h3>
+            <h3>خدمات نقل العفش المتكاملة في جدة</h3>
             <p>
-              تشمل خدماتنا <strong>نقل عفش الرياض</strong> و<strong>نقل عفش مكة المكرمة</strong> و<strong>نقل عفش المدينة المنورة</strong> 
+              تشمل خدماتنا  
               بالإضافة إلى خدمات <strong>نقل المكاتب</strong> و<strong>نقل الأجهزة الكهربائية</strong>. نحن نستخدم أحدث الأساليب 
               في التغليف والنقل لضمان وصول عفشك بحالة ممتازة.
             </p>
 
-            <h3>لماذا نحن أفضل شركة نقل عفش في السعودية؟</h3>
+            <h3>لماذا نحن أفضل شركة نقل عفش في جدة؟</h3>
             <ul>
               <li>✓ فريق فنيين محترفين مدربين على أعلى مستوى</li>
               <li>✓ سيارات نقل مجهزة ومقفولة لحماية العفش</li>
@@ -93,19 +93,11 @@ import { Title, Meta } from '@angular/platform-browser';
             </ul>
 
             <div class="cities-service">
-              <h3>مناطق خدماتنا في المملكة العربية السعودية</h3>
+              <h3>مناطق خدماتنا في جدة</h3>
               <div class="cities-grid">
                 <div class="city-item">
                   <h4>نقل عفش جدة</h4>
                   <p>خدمة نقل عفش متكاملة في جدة مع فنيين متخصصين</p>
-                </div>
-                <div class="city-item">
-                  <h4>نقل عفش الرياض</h4>
-                  <p>أفضل شركة نقل أثاث في الرياض بأسعار مناسبة</p>
-                </div>
-                <div class="city-item">
-                  <h4>نقل عفش مكة المكرمة</h4>
-                  <p>خدمات نقل العفش في مكة مع الضمان الشامل</p>
                 </div>
               </div>
             </div>
@@ -122,7 +114,7 @@ import { Title, Meta } from '@angular/platform-browser';
         <!-- Rest of your existing sections... -->
         <section class="services">
           <h2 class="service-title">خدماتنا المتكاملة لنقل العفش</h2>
-          <p>نقدم في شركتنا خدمات نقل العفش المتكاملة التي تشمل الفك والتركيب والتغليف بأسعار مناسبة مع ضمان على الخدمة. نحن نستخدم سيارات مقفولة مجهزة خصيصاً لنقل العفش لحماية أغراضكم أثناء التنقل بين مدن المملكة العربية السعودية.</p>
+          <p>نقدم في شركتنا خدمات نقل العفش المتكاملة التي تشمل الفك والتركيب والتغليف بأسعار مناسبة مع ضمان على الخدمة. نحن نستخدم سيارات مقفولة مجهزة خصيصاً لنقل العفش لحماية أغراضكم أثناء التنقل  جدة.</p>
 
           <div class="service-list">
             <div class="service-item" *ngFor="let service of services">
@@ -147,7 +139,7 @@ import { Title, Meta } from '@angular/platform-browser';
             <a href="#" aria-label="انستغرام"><i class="fab fa-instagram"></i></a>
             <a href="https://wa.me/966559160622" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
           </div>
-          <p>مؤسسة الضمان الذهبي لنقل الاثاث - خدمات نقل عفش مع الفك والتركيب والتغليف والضمان في جميع أنحاء المملكة العربية السعودية</p>
+          <p>مؤسسة الضمان الذهبي لنقل الاثاث - خدمات نقل عفش مع الفك والتركيب والتغليف والضمان في جدة</p>
           <p>جميع الحقوق محفوظة ©2024</p>
         </div>
       </footer>
@@ -817,7 +809,7 @@ export class FurnitureTransportationComponent implements OnInit {
           "addressRegion": "Makkah Province",
           "addressLocality": "جدة"
         },
-        "areaServed": ["جدة", "الرياض", "مكة المكرمة", "المدينة المنورة"],
+        "areaServed": ["جدة"],
         "serviceType": ["نقل العفش", "فك وتركيب الأثاث", "تغليف العفش"]
       });
       document.head.appendChild(script);
@@ -826,7 +818,7 @@ export class FurnitureTransportationComponent implements OnInit {
 
   private setPageMetadata(): void {
     // Set page title for browser tab
-    this.titleService.setTitle('الضمان الذهبي لنقل الأثاث - أفضل شركة نقل عفش في جدة والسعودية');
+    this.titleService.setTitle('الضمان الذهبي لنقل الأثاث - أفضل شركة نقل عفش في جدة ');
     
     // Set favicon
     this.setFavicon('/assets/images/logo.png');
