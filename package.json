@@ -1,20 +1,17 @@
 {
-  "name": "furniture-transportation-angular",
-  "version": "0.0.0",
+  "name": "angular-starter",
+  "version": "19.2.13",
   "scripts": {
-  "ng": "ng",
-  "start": "ng serve",
-  "build": "ng build",
-  "build:prod": "ng build --configuration production",
-  "watch": "ng build --watch --configuration development",
-  "test": "ng test",
-  "dev:ssr": "ng run furniture-transportation-angular:serve-ssr",
-  "serve:ssr": "node dist/furniture-transportation-angular/server/main.js",
-  "build:ssr": "ng build && ng run furniture-transportation-angular:server",
-  "build:ssr:prod": "ng build --configuration production && ng run furniture-transportation-angular:server:production",
-  "prerender": "ng run furniture-transportation-angular:prerender",
-  "vercel-build": "npm run build:ssr:prod"
-},
+    "ng": "ng",
+    "dev": "ng serve --port 4200",
+    "start": "ng serve --port 4200",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "coverage": "ng test --no-watch --code-coverage",
+    "lint": "ng lint",
+    "serve": "node dist/angular-starter/server/server.mjs"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.0.0",
@@ -28,7 +25,7 @@
     "@angular/router": "^19.0.0",
     "@angular/ssr": "^19.2.17",
     "express": "^4.18.2",
-    "glob": "^11.0.3",
+    
     "rimraf": "^6.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
