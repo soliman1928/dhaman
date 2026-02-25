@@ -1,7 +1,7 @@
 {
   "name": "angular-starter",
   "version": "19.2.13",
-  "scripts": {
+ "scripts": {
     "ng": "ng",
     "dev": "ng serve --port 4200",
     "start": "ng serve --port 4200",
@@ -10,7 +10,8 @@
     "test": "ng test",
     "coverage": "ng test --no-watch --code-coverage",
     "lint": "ng lint",
-    "serve": "node dist/angular-starter/server/server.mjs"
+    "serve": "node dist/angular-starter/server/server.mjs",
+    "vercel-build": "ng build"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +26,7 @@
     "@angular/router": "^19.0.0",
     "@angular/ssr": "^19.2.17",
     "express": "^4.18.2",
-    
+    "glob": "^11.0.3",
     "rimraf": "^6.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

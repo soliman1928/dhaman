@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://furniture-transportation-angular.vercel.app/sitemap.xml
+Sitemap: https://www.dhaman-move.online/sitemap.xml
