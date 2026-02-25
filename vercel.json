@@ -1,17 +1,8 @@
 {
-  "version": 2,
-  "buildCommand": "npm run vercel-build",
-  "outputDirectory": "dist/furniture-transportation-angular/server",
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    { 
-      "src": "/(.*)",
-      "dest": "/api"
-    }
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/angular-starter/browser",
+  "framework": "angular",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
-
-
-
